@@ -16,7 +16,11 @@ export default function Mainpage() {
       </div>
       <div className='choose-file-component'>
         <p>Or</p>
-        <div className='choose-file-button'>
+        <div input type="file" className='choose-file-button'>
+          {/* <input
+              type="file"
+              accept=".jpeg,.jpg,.png"
+            /> */}
             <h1>Choose a file</h1>
         </div>
       </div>

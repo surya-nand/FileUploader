@@ -4,8 +4,7 @@
 
 .main-page {
   position: fixed;
-  width: 34vw;
-  height: 50vh;
+  min-width: 25vw;
   flex-shrink: 0;
   top: 50%;
   left: 50%;
@@ -14,22 +13,91 @@
   background: #fff;
   box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
 }
-.upload-component-description{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.upload-component-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.upload-component-description h1{
-    margin-top: 10%;
-    margin-bottom: 5%;
-    color: var(--gray-2, #4F4F4F);
-    font-family: Poppins;
-    font-size: 1.8vw;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: -0.63px;
+.upload-component-description h1 {
+  margin-top: 7%;
+  margin-bottom: 5%;
+  color: var(--gray-2, #4f4f4f);
+  font-family: Poppins;
+  font-size: 1.4vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.63px;
 }
 
-
+.upload-component-description p {
+  color: var(--gray-3, #828282);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 0.8vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.35px;
+}
+.image-drop-component {
+  border-radius: 12px;
+  border: 1px dashed #97BEF4;
+  background: #F6F8FB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+.image-drop-component img {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.image-drop-component p {
+  color: var(--gray-4, #BDBDBD);
+  font-family: Poppins;
+  font-size: 0.9vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.42px;
+  margin-bottom: 10%;
+}
+.choose-file-component p{
+  color: var(--gray-4, #BDBDBD);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 0.9vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.42px;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+.choose-file-button{
+  border-radius: min(12px,0.8vw);
+  background: var(--blue-1, #2F80ED);
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 10%;
+  min-height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.choose-file-button h1{
+  color: #FFF;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -0.42px;
+}
