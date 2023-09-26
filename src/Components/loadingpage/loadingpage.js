@@ -4,7 +4,8 @@ import "./../loadingpage/loadingpage.modules.css"
 function Loadingpage() {
   return (
     <div className='loading-component'>
-        Loading page
+        <h1>Uploading</h1>
+        
     </div>
   )
 }
